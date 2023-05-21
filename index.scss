@@ -1,0 +1,94 @@
+$siteMainColor: #e9b0ff;
+$siteBackColor: #fff;
+$gridColor: #000;
+$borderColor: #000;
+
+body {
+  background-color: $siteBackColor;
+  margin: 0px;
+
+  header {
+    background-color: $siteMainColor;
+    padding: 5px;
+    margin: auto 0;
+    text-align: center;
+
+    h1 {
+      padding-top: 20px;
+      padding-bottom: 20px;
+      margin: 0px;
+    }
+  }
+
+
+
+  main {
+    p {
+      text-align: center;
+      padding-top: 15px;
+    }
+
+    table {
+      width: 100%;
+      text-align: center;
+      border-collapse: collapse;
+
+      th,
+      td {
+        border: 1px solid $gridColor;
+      }
+    }
+
+    .site-info {
+      background-color: $siteMainColor;
+    }
+  }
+
+  .container {
+    width: 600px;
+    margin: 0px auto;
+    margin-bottom: 30px;
+
+  }
+
+  footer {
+    background-color: $siteMainColor;
+    padding-top: 30px;
+    padding-bottom: 30px;
+
+    .from {
+      text-align: right;
+
+      p {
+        margin: 0px;
+      }
+    }
+
+    .copy-links {
+      border-top: 1px solid $borderColor;
+      padding-top: 20px;
+
+      .copy {
+        float: left;
+      }
+
+      .links {
+        ul {
+          float: right;
+          margin: 0px;
+
+          li {
+            float: left;
+            margin-right: 30px;
+            list-style: none;
+
+            a {
+              border-bottom: none;
+            }
+          }
+        }
+      }
+    }
+
+  }
+}

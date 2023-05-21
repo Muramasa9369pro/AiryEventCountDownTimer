@@ -1,0 +1,66 @@
+body {
+  background-color: #fff;
+  margin: 0px;
+}
+body header {
+  background-color: #e9b0ff;
+  padding: 5px;
+  margin: auto 0;
+  text-align: center;
+}
+body header h1 {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin: 0px;
+}
+body main p {
+  text-align: center;
+  padding-top: 15px;
+}
+body main table {
+  width: 100%;
+  text-align: center;
+  border-collapse: collapse;
+}
+body main table th,
+body main table td {
+  border: 1px solid #000;
+}
+body main .site-info {
+  background-color: #e9b0ff;
+}
+body .container {
+  width: 600px;
+  margin: 0px auto;
+  margin-bottom: 30px;
+}
+body footer {
+  background-color: #e9b0ff;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+body footer .from {
+  text-align: right;
+}
+body footer .from p {
+  margin: 0px;
+}
+body footer .copy-links {
+  border-top: 1px solid #000;
+  padding-top: 20px;
+}
+body footer .copy-links .copy {
+  float: left;
+}
+body footer .copy-links .links ul {
+  float: right;
+  margin: 0px;
+}
+body footer .copy-links .links ul li {
+  float: left;
+  margin-right: 30px;
+  list-style: none;
+}
+body footer .copy-links .links ul li a {
+  border-bottom: none;
+}/*# sourceMappingURL=index.css.map */
