@@ -30,6 +30,16 @@ const festivals = [
   new Festival("黒羊ニグラス", "誕生日", new Date("2023-01-16 00:00:00")),
   new Festival("無印ヨグ", "デビュー記念", new Date("2023-05-12 00:00:00")),
   new Festival("無印ヨグ", "誕生日", new Date("2023-10-04 00:00:00")),
+  new Festival("屋島もみじ", "デビュー記念", new Date("2023-04-01 00:00:00")),
+  new Festival("屋島もみじ", "誕生日", new Date("2023-08-04 00:00:00")),
+  new Festival("雪車町ましろ", "デビュー記念", new Date("2023-04-02 00:00:00")),
+  new Festival("雪車町ましろ", "誕生日", new Date("2023-02-20 00:00:00")),
+  new Festival("五穣みずき", "デビュー記念", new Date("2023-04-03 00:00:00")),
+  new Festival("五穣みずき", "誕生日", new Date("2023-07-20 00:00:00")),
+  new Festival("九娥つばき", "デビュー記念", new Date("2023-04-04 00:00:00")),
+  new Festival("九娥つばき", "誕生日", new Date("2023-10-29 00:00:00")),
+  new Festival("火挟あかり", "デビュー記念", new Date("2023-04-05 00:00:00")),
+  new Festival("火挟あかり", "誕生日", new Date("2023-12-01 00:00:00")),
 ];
 
 
