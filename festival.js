@@ -1,7 +1,8 @@
 class Festival {
 
   //コンストラクタ
-  constructor(name, fes, datetime) {
+  constructor(icon, name, fes, datetime) {
+    this._icon = icon;
     this._name = name;
     this._fes = fes;
 
@@ -19,6 +20,10 @@ class Festival {
   }
 
   //getter
+  get icon() {
+    return this._icon;
+  }
+
   get name() {
     return this._name;
   }
